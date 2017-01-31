@@ -11,7 +11,7 @@ package main
 
 import(
 	"fmt"
-	"custom/utils"
+	"github.com/aksh-4793/D30-HectorDA/utils"
 )
 
 
