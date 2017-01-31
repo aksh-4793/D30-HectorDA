@@ -1,0 +1,13 @@
+message transferOutMismatch {
+
+	required string transactionId = 1;
+	required string transactionType = 2;
+	required string requestNo = 3;
+	required string company = 4;
+	required string dataErrorDateTime = 5;
+	required string createBy = 6;
+	required string createDateTime = 7;
+	required string updateBy = 8;
+	required string updateDateTime = 9;
+
+}
