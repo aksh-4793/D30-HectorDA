@@ -11,7 +11,7 @@ package main
 
 import(
 	"fmt"
-	"custom/utils"
+	"github.com/hector/utils"
 )
 
 
