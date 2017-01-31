@@ -3,19 +3,20 @@ package utils
 import(
 	"fmt"
 	"github.com/BurntSushi/toml"
-	"../model"
+	"custom/model"
 	"os"
 	"github.com/gocql/gocql"
 	"time"
 	"encoding/json"
-	"../TransferOutMismatch"
+	"custom/proto_types/TransferOutMismatch"
 )
 var CassandraConf model.CassandraConfig
 var CassandraChan chan *gocql.Session
 var CassandraSession *gocql.Session
 func init() {
 
-	_,err := toml.DecodeFile("/root/projects/src/Hector/conf/cassandra.toml",&CassandraConf)
+
+	_,err := toml.DecodeFile("/root/workspace/D30-HectorDA/conf/cassandra.toml",&CassandraConf)
 
 	if err != nil {
 		fmt.Println(err.Error())

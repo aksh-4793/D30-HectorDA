@@ -2,7 +2,7 @@ package utils
 import (
 	"fmt"
 	"net"
- 	"../TransferOutMismatch"
+ 	"custom/proto_types/TransferOutMismatch"
  	"os"
  	"github.com/golang/protobuf/proto"
 )

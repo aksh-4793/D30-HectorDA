@@ -11,7 +11,7 @@ package main
 
 import(
 	"fmt"
-	"./utils"
+	"custom/utils"
 )
 
 
