@@ -1,2 +1,2 @@
 # D30-HectorDA
-An Adapter for Cassandra
+An Adapter for Cassandra -- 
